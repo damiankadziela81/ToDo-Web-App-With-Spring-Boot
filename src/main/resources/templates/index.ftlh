@@ -5,6 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-    TODO list
+    <h2>TODO list</h2>
+
+    <table>
+        <tr>
+            <td>Priority</td>
+            <td>Description</td>
+            <td>Date</td>
+        </tr>
+
+        <#list tasks as task>
+            <tr>
+                <td>${task.priority}</td>
+                <td>${task.description}</td>
+                <td>${task.date}</td>
+            </tr>
+        </#list>
+
+    </table>
 </body>
 </html>
