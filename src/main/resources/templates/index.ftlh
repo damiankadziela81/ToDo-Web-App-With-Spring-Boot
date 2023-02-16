@@ -10,6 +10,9 @@
 
     <h2>To-Do List</h2>
 
+    <a href="sortByPriority">Sort by priority</a><br/>
+    <br/>
+
     <table>
         <tr>
             <td>Priority</td>
