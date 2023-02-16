@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <h2>TODO list</h2>
+    <h2>Tasks</h2>
 
     <table>
         <tr>
@@ -19,6 +19,7 @@
                 <td>${task.priority}</td>
                 <td>${task.description}</td>
                 <td>${task.date}</td>
+                <td><a href="${'tasks/' + task.id}">Done</td>
             </tr>
         </#list>
 
