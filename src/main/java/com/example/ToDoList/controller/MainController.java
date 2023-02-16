@@ -42,4 +42,11 @@ public class MainController {
         taskRepository.save(task);
         return "redirect:/";
     }
+
+    @RequestMapping("/sortByPriority")
+    public String getAllByPriority(Model model){
+        List<Task> tasks = taskRepository.findAllByOrderByPriority();
+        model.addAttribute("tasks",tasks);
+        return "index";
+    }
 }
