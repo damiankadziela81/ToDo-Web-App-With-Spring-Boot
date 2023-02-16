@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tasks</title>
 </head>
 <body>
-    <h2>Tasks</h2>
+
+    <a href="newTask">Add new task</a>
+
+    <h2>To-Do List</h2>
 
     <table>
         <tr>
